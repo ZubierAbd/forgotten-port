@@ -1,0 +1,45 @@
+body {
+  background-image: linear-gradient(black, black),
+    url("src/assets/images/title.jpg");
+  background-blend-mode: saturation;
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  font-family: "Didact Gothic", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+body h1 {
+  font-family: "Inknut Antiqua", serif;
+  color: #eeeeee;
+  -webkit-text-stroke: 2px black;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 72px;
+}
+
+h1:hover {
+  color: #252525;
+  opacity: 0.3;
+}
+
+.main-box {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+  text-align: center;
+}
+
+.main-box p {
+  font-size: 30px;
+}
+
+.welcome-text:hover {
+  color: #252525;
+  opacity: 0.5;
+}
