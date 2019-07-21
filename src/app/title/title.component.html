@@ -2,8 +2,17 @@
   <h1>The Forgotten Port</h1>
   <div class="main-box">
     <p class="welcome-text">What is your name, stranger?</p>
-    <form>
-      <input />
-    </form>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      required
+      [(ngModel)]="data.name"
+    />
+    <div>
+      <button class="enter" (click)="submit()" routerLink="/town">
+        It's the town that never sleeps
+      </button>
+    </div>
   </div>
 </body>

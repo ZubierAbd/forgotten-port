@@ -1,0 +1,10 @@
+<body>
+  <h1>
+    The Old Port
+  </h1>
+
+  <div class="text-box">
+    <div *ngIf="firstTextFlag" (click)="changeFlag()">{{ this.firstText }}</div>
+    <div *ngIf="!firstTextFlag">{{ this.secondText }}</div>
+  </div>
+</body>
